@@ -1,0 +1,48 @@
+#cfe-contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.cfe-form-group {
+    margin-bottom: 15px;
+}
+
+.cfe-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cfe-form-group input,
+.cfe-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cfe-submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cfe-submit-button:hover {
+    background-color: #005885;
+}
+
+.cfe-success-message{
+    color: #5cb85c;
+    font-weight: bold;
+    margin-top: 15px;
+}
